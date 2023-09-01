@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Somando Números</title>
+  <style> /*parte de CSS*/
+    #showResult {
+      margin-top: 20px;
+      border: 2px solid red;
+      font-family: Arial, Helvetica, sans-serif;      
+      width: 200px;
+    }
+  </style>
+</head>
+<body> <!-- parte de HTML -->
+  <h1>Somando Valores</h1>
+  <input type="number" name="text01" id="text01"> +
+  <input type="number" name="text02" id="text02">
+  <input type="button" value="Somar" onclick="somar()">
+  <div id="showResult">RESULTADO</div>
+
+  <script> // JavaScript - parte de interatividade 
+    function somar() {
+      let boxText01 = window.document.getElementById('text01')
+      let boxText02 = window.document.querySelector('input#text02')//dúvida? Assista a aula 09.
+      let result = window.document.getElementById('showResult')
+
+      let number01 = Number(boxText01.value)
+      let number02 = Number(boxText02.value)
+      let soma = number01 + number02
+      result.innerHTML = `A soma entre ${number01} e ${number02} é <strong>${soma}</strong>.`
+    }        
+  </script>
+</body>
+</html>

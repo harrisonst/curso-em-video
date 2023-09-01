@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listas</title>
+</head>
+<body>
+  <h1>Trabalhando com Listas</h1>
+  <h2>Listas ordenadas</h2>
+  <p>São aquelas que a ordem faz diferença</p>
+  1 - Acordar
+  2 - Tomar café
+  3 - Escovar os dentes
+  4 - Lavar roupas
+  <p>Lista ordenada &lt;ol&gt; seguido de ítens da lista &lt;li&gt;</p>
+  <p>Usamos type para esolhermos o tipo de letra e start para escolhermos com qual número quero que a lista inicie.</p>
+  <ol type="A"> <!-- 1 A a I i-->
+    <li>Acordar</li> 
+    <li>Tomar café</li>
+    <li>Escovar os dentes</li>
+    <li>Lavar roupas</li>
+  </ol>
+  <ol start="4">
+    <li>Acordar</li>
+    <li>Tomar café</li>
+    <li>Escovar os dentes</li>
+    <li>Lavar roupas</li>
+  </ol>
+  <h2>Listas não ordenadas</h2>
+  <p>Por padrão, o tipo é disc, mas existem square e disc. Segue o exemplo do circle.</p>
+  <ul> 
+    <li>Pão</li>
+    <li>leite</li>
+    <li>Ovo</li>
+    <li>Carne</li>
+  </ul>
+  <ul type="circle"> <!-- 3 opções disponíveis: disc circle square -->
+    <li>Pão</li>
+    <li>leite</li>
+    <li>Ovo</li>
+    <li>Carne</li>
+  </ul>
+  <h2>Juntando listas vesão 1.0. Exemplo:</h2>
+  <p>Minhas linguagens favoritas</p>
+  <ol>
+    <li>Antigas</li>
+      <ol type="a">
+        <li>Clipper</li>
+        <li>Visual Baic</li>
+        <li>Fortram</li>
+        <li>Delphi</li>
+      </ol>
+    <li>Novas</li>
+      <ol type="a" start="5">
+        <li>PHP</li>
+        <li>Python</li>
+        <li>Javascript</li>
+        <li>Kotlin</li>
+      </ol>    
+  </ol>
+  <h2>Meus jogos favoritos</h2>
+  <ol>
+    <li>NES</li>
+      <ul type="square">
+        <li>Mario Bros</li>
+          <ul type="circle">
+            <li>Mario Bros 3</li>
+            <li>Mario: Lost Levels</li>
+          </ul>
+        <li>Ninja Gaiden</li>
+      </ul>
+    <li>SENES</li>
+      <ul type="square">
+        <li>Mario</li>
+        <li>Donkey Kong</li>
+      </ul>
+    <li>Playstation</li>
+      <ul type="square">
+        <li>Final Fantasy</li>
+        <li>Castlevania</li>
+      </ul>
+  </ol>
+  <h2>Lista de definições &lt;dd&gt;</h2>
+
+  &lt;dd&gt; lista de definição<br>
+  &lt;dt&gt;Termo&lt;/dt&gt; <br>
+  &lt;dd&gt;Descrição&lt;/dd&gt; 
+  <p>Fica assim:</p> 
+  <dl>HTML
+  <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+  <dt>CSS</dt>
+  <dd>Linguagem de marcação para a criação do design de um site.</dd>
+  <dt>Javascript</dt>
+  <dd>Linguagem de programação para a criação de interatividade de um site./dd>  
+</dl>
+</body>
+</html>

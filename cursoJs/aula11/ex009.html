@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verifica Nacionalidade</title>
+  <style>
+    #res{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 16px;
+      margin-top: 12px;
+      font-style: oblique;
+    }
+  </style>
+  </head>
+<body>
+  <h1>Você é brasileiro ou estrangeiro?</h1>
+    Digite o nome do país onde você nasceu: <input type="text" name="text" id="text">
+    <input type="button" value="Verificar" onclick="check()">
+    <div id="res"></div>
+
+    <script>
+      function check(){
+        let nacionalidade = window.document.querySelector('input#text')
+        let res = window.document.querySelector('div#res')
+        let confere = (text.value)
+        
+          if (confere == 'Brasil') {
+          res.innerHTML = (`Parabéns, você é brasileiro!`)
+          res.style.color = 'green'
+        } else {
+          res.innerHTML = (`Você é estrangeiro.`)
+          res.style.color = 'violet'
+        }
+        }
+
+    </script>
+</body>
+</html>

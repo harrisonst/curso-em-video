@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEventos DOM</title>
+
+  <style>
+    #area{
+      background-color: rgb(32, 105, 80);
+      color: white;
+      width: 200px;
+      height: 200px;
+      line-height: 200px;
+      text-align: center;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="area">
+    Interaja...
+  </div>
+
+  <script>
+    area.addEventListener('click', clicar)
+    area.addEventListener('mouseenter', entrar)
+    area.addEventListener('mouseout', sair)
+
+      function clicar(){
+        let area = document.getElementById('area')
+        area.innerText = 'Clicou!'
+        area.style.background = 'red'
+      }
+      function entrar() {
+        let area = document.getElementById('area')
+        area.innerText = 'entrou!'
+        
+      }
+      function sair(){
+        let area = document.getElementById('area')
+        area.innerText = 'Saiu? Entre!'
+        area.style.background = 'rgb(32, 105, 80)'
+      }
+  </script>
+</body>
+</html>

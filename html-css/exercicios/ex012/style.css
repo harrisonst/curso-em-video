@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.local-video {
+ border: 1px solid red;
+ background: rgb(162, 204, 162);
+
+}

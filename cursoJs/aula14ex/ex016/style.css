@@ -1,0 +1,46 @@
+:root {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+
+body{
+  background-color: rgb(110, 189, 245);
+  font-family: 'Zen Dots', cursive;
+ 
+  
+}
+
+header {
+  font-size: 2rem;
+  text-align: center;
+  color: azure;
+   
+}
+
+section {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 50rem;
+  margin: auto;
+  justify-content: center;
+  box-shadow: 5px 5px 10px rgb(96, 94, 94);
+
+}
+
+#fromTo, #inputPath, #count, #result {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+footer{
+  font-size: 1.3rem;
+  text-align: center;
+  font-style: italic;
+  color: azure;
+ 
+}

@@ -1,0 +1,50 @@
+:root {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+
+body{
+  background-color: rgb(186, 246, 246);
+  font-family: 'Zen Dots', cursive;  
+}
+
+header {
+  font-size: 2rem;
+  text-align: center;
+  /*color: rgb(178, 213, 244);*/
+ 
+}
+
+section {
+  background: white;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  width: 50rem;
+  margin: auto;
+  justify-content: center;
+  /*box-shadow: 5px 5px 10px rgb(96, 94, 94);*/
+
+}
+
+section {
+  text-align: center;
+  padding: 2rem;
+  /*background-color: rgb(124, 124, 236);*/
+}
+
+#msg {
+  margin-bottom: 2rem;
+  /*color: rgb(26, 58, 85);*/
+}
+
+footer{
+  font-size: 1.7rem;
+  text-align: center;
+  font-style: italic;
+  /*color: rgb(178, 213, 244);*/
+}
